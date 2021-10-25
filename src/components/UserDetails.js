@@ -136,9 +136,7 @@ const UserDetails = () => {
             {day2}
 
             <br />
-            <h3>test</h3>
-            {rand1} <br />
-            {rand2}
+           
         </div>
       
             
