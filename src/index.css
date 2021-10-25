@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.cld-title span {
+  color: #ffffff;
+}
+    .cld-number:hover .cld-title{
+      display: block;
+    }
+
+    .cld-number.eventday{
+      color: #0080FF;
+    }
+    .cld-number.eventday:hover{
+      cursor: pointer;
+      background: #eee;
+    }
+    .today .cld-number.eventday:hover{
+      background: #005EFF;
+    }
+
+
+
+    .content-section {
+      background: #ffffff;
+      padding: 10px 20px;
+      border: 1px solid #dddddd;
+      border-radius: 3px;
+      margin-bottom: 20px;
+    }
+
+    .content-section:hover {
+      box-shadow: 1px 3px 5px rgba(0.5,0,0,1);
+
+    }
+    
+    .article-title {
+      color: #444444;
+    }
+    
+    a.article-title:hover {
+      color: #428bca;
+      text-decoration: none;
+    }
+    
+    .article-content {
+      white-space: pre-line;
+    }
+    
+    .article-img {
+      height: 65px;
+      width: 65px;
+      margin-right: 16px;
+    }
+    
+    .article-metadata {
+      padding-bottom: 1px;
+      margin-bottom: 4px;
+      border-bottom: 1px solid #e3e3e3
+    }
+    
+    .article-metadata a:hover {
+      color: #333;
+      text-decoration: none;
+    }
+    
+    .article-svg {
+      width: 25px;
+      height: 25px;
+      vertical-align: middle;
+    }
+    
+    .account-img {
+      height: 125px;
+      width: 125px;
+      margin-right: 20px;
+      margin-bottom: 16px;
+    }
+    
+    .account-heading {
+      font-size: 2.5rem;
+    }
